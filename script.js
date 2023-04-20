@@ -10,30 +10,29 @@ let endGame=document.querySelector(".end-game");
 let updateScore=document.querySelector(".update-score");
 let grow=document.querySelector(".grow");
 
-/* Problem 1:When jump button is clicked, Mario jumps and coin disappears
+/* Problem 1:When jump button is clicked, Mario jumps and coin disappears */
 
-____.onclick=function(){
+jumpButton.onclick=function(){
     mario.style.bottom="175px";
     coin.style.display="none";
 };
 
-*/
 
-/*Problem 2 : When  Jump Down button is clicked, Mario jumps down 
+/*Problem 2 : When  Jump Down button is clicked, Mario jumps down */
 
-___.onclick=function(){
+jumpdownButton.onclick=function(){
     mario.style="bottom:60px";
 };
 
-*/
 
-/* 3: When Change Color button is clicked, background color changes
 
-____.____=____(){
+/* 3: When Change Color button is clicked, background color changes */
+
+changeColor.onclick= function (){
     background.style.backgroundColor="red";
 };
 
-*/
+
 
 
 /* 4: When End Game button is clicked, the title of the page says game over
